@@ -1,9 +1,9 @@
 const sumAll = function(numFrom, numTo) {
     let sumFinal = 0;
     if (
-        numFrom.constructor === Number 
+        numFrom.constructor === Number
         && numTo.constructor === Number
-        && numFrom >= 0 
+        && numFrom >= 0
         && numTo >= 0
         ) {
         if (numFrom > numTo) [numFrom, numTo] = [numTo, numFrom]
